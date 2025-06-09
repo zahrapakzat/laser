@@ -2,4 +2,13 @@
 User-agent: *
 Allow: /
 
+# Sitemap location
 Sitemap: https://laserentezar.vercel.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
